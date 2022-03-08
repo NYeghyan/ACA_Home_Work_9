@@ -1,0 +1,16 @@
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.list-data {
+  border: 1px solid black;
+  margin-bottom: 5px;
+}
+
+
+.list-data h4 {
+  font-weight: 100;  
+}

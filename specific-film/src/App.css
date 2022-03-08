@@ -1,0 +1,63 @@
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+#root, .main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.movie-content > * {
+    padding: 10px;
+   
+}
+
+.movie-content {
+  width: 530px;
+}
+
+
+
+
+.description, .title, .director, .producer, .release-date {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.des {
+  display: block;
+  width: 135px;
+  
+}
+
+.data {
+  display: flex;
+  width: 350px;
+}
+
+
+
+.btn {
+  padding: 11px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(161 150 233);
+  width: 100px;
+  cursor: pointer;
+  margin: 20px 0 20px 0;
+
+}
+
+.btn:hover {
+box-shadow: 0 15px 25px rgba(0,0,0,.2);
+}
+
+
+.img > img {
+  border-radius: 15px;
+}
